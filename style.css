@@ -1,0 +1,37 @@
+.nav-bar {
+	display:flex;
+	font-family:arial, sans-serif;
+	font-size:13px;
+	width:100%;
+	background-color:yellow;
+	position:absolute;
+	}
+	
+a {
+	padding-left:13px;
+	text-decoration:none;
+	color:#000;
+	margin:5px;
+	}
+a:hover {
+	text-decoration:underline;
+	}
+	
+.ico-link {
+	width:30px;
+	height:30px;
+	
+	
+	}
+	
+#email {
+	border-radius:100%;
+	width:40px;
+	height:40px;
+	
+	}
+
+.right {
+	
+	
+	}
