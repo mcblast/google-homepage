@@ -3,14 +3,14 @@
 	font-family:arial, sans-serif;
 	font-size:13px;
 	width:100%;
-	background-color:yellow;
 	position:absolute;
+	align-items:center;
 	}
 	
 a {
 	padding-left:13px;
 	text-decoration:none;
-	color:#000;
+	color:rgba(0, 0, 0, 0.54);;
 	margin:5px;
 	}
 a:hover {
@@ -32,6 +32,101 @@ a:hover {
 	}
 
 .right {
+	display:flex;
+	align-items:center;
+	}
 	
+.left {
+	flex:1;
+	}
+
+.container {
+	text-align:center;
+	padding-top:200px;
+	;
+	}
+
+#google {
+	height:92px;
+	width:272;
+	}
+	
+input[type=text] {
+	font:16px arial,sans-serif;
+	padding-left:15px;
+	border-radius: 2px;
+	border:1px solid #b4bec1;
+	box-shadow: 0 0 1px grey;
+	width:469px;
+	height:44px;
+	}
+
+input[type=text]:hover{
+	box-shadow:0 0 3px grey;
+	}
+
+input[type=text]:focus{
+	box-shadow:0 0 3px grey;
+	}
+
+input[type=submit]{
+	padding-left:16px;
+	padding-right:16px;
+	border-radius:2px;
+	color:#757575;
+	background-color:#f2f2f2;
+	font-size:13px;
+	font-family:arial,sans-serif;
+	font-weight:bold;
+	height:36px;
+	border:none;
+	margin-top:40px;
+	margin-left:10px;
+	}
+
+input[type=submit]:hover{
+	color:black;
+	border:1px solid #dbdbdb;
+	}
+	
+p {
+	display:inline-block;
+	font-family:arial,sans-serif;
+	font-size:13px;
+	line-height:28px;
+	margin-top:20px;
+}
+
+#french {
+	color:rgb(26, 13, 171);
+	padding-left: 0;
+	}
+	
+footer {
+	background-color:#f2f2f2;
+	font-family:arial,sans-serif;
+	color:rgba(0, 0, 0, 0.54);
+	position:fixed;
+	width:100%;
+	margin-left:-8px;
+	display:flex;
+	flex-direction:column;
+	bottom:0;
 	
 	}
+	
+footer div{
+	display:flex;
+	border-top:1px solid #dbdbdb;
+	margin-right:0;
+	height:48px;
+	align-items:center;
+	font-size:13px;
+	padding-right:10px;
+	}
+	
+#country {
+	padding-left:19px;
+	}
+	
+
